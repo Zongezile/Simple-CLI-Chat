@@ -62,7 +62,6 @@ while True:
 
     if reply is None:
         tool_calls = response.choices[0].message.tool_calls
-        print(tool_calls)
         for tool_call in tool_calls:
             function_id = tool_call.id
             function_name = tool_call.function.name
