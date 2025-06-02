@@ -2,7 +2,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import json
 
-load_dotenv(dotenv_path=r"C:\Users\Dominika\Desktop\RAG_key.env")
+load_dotenv(dotenv_path=".....")
 
 client = OpenAI()
 
